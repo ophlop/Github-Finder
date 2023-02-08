@@ -25,7 +25,7 @@ const handleSubmit = (event: React.FormEvent<HTMLFormElement & FormFields>) => {
     
     return (
         <form onSubmit={handleSubmit} autoComplete='off'>
-            <div className='relative w-full h-[70px] mt-[30px] overflow-hidden px-3 pl-3 pr-4 bg-white flex items-center rounded-2xl md:pr-8'>
+            <div className='relative w-full h-[70px] mt-[30px] overflow-hidden pl-8 pr-8 bg-white flex items-center rounded-2xl md:pr-8'>
                 <label htmlFor="" className='cursor-pointer'><SearchIcon /></label>
                     <input
                         name='username'
