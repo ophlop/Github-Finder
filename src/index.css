@@ -10,10 +10,6 @@
   }
 }
 
-body[data-theme = 'light'] {
-    background-color: rgb(241 245 249);
-}
-
-body[data-theme = 'dark'] {
-    background-color: rgb(33, 31, 85);
+body {
+  background-color: rgb(241 245 249);
 }
