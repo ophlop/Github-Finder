@@ -21,9 +21,9 @@ export const InfoItem = ({ icon, isLink, text }: IInfoItem) => {
             href={currentHref}
             target="_blank"
             rel="noreferrer"
-            className="no-underline text-gray-200 hover:underline"
+            className="no-underline text-gray-400 hover:underline hover:text-[#0079ff]"
           >
-            currentText
+            {currentText}
           </a>
         ) : (
           currentText
