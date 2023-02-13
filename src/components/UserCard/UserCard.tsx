@@ -6,7 +6,7 @@ import { localGithubUser } from "../types/user";
 interface IUserCard extends localGithubUser {}
 
 export const UserCard = (props: IUserCard) => (
-  <div className="grid mt-6 mx-0 mb-12 w-full pt-[30px] px-6 pb-10 bg-white rounded-2xl grid-cols-[200px,_auto] gap-x-8">
+  <div className="lg:grid mt-6 mx-0 mb-12 w-full pt-[30px] px-6 pb-10 bg-white rounded-2xl grid-cols-[200px,_auto] gap-x-8 md:grid sm:block">
     <img
       src={props.avatar}
       alt={props.login}
